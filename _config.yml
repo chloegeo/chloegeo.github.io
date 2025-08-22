@@ -1,0 +1,58 @@
+title: "Chloë Thalia Georgiou"
+email: "chloegeorgiou8@gmail.com"
+description: "PhD student in Computer Science at UC Irvine. Security & privacy, smart contracts, applied cryptography."
+url: "" # your site URL without trailing slash (set later if using custom domain)
+baseurl: "" # leave empty for user.github.io root
+
+# AcademicPages settings
+remote_theme: "mmistakes/academicpages"
+# Fallback if remote_theme not available on GH Pages, uncomment below and commit /vendor bundle
+# theme: "academicpages"
+
+# Author profile (shows in sidebar)
+author:
+  name: "Chloë Georgiou"
+  avatar: "/assets/img/headshot.jpg"   # replace with your photo
+  bio: "PhD student @ UC Irvine advised by Gene Tsudik. Research: privacy-preserving systems and smart-contract security."
+  location: "Irvine, CA"
+  employer: "UC Irvine"
+  email: "chloegeorgiou8@gmail.com"
+  github: "chloegeo"
+  linkedin: "chloegeorgiou"
+  # scholar: "YOUR_SCHOLAR_ID"   # add when you have it
+  orcid: ""
+
+# Collections
+collections:
+  teaching:
+    output: true
+  publications:
+    output: true
+  talks:
+    output: true
+  portfolio:
+    output: true
+
+# Plugins
+plugins:
+  - jekyll-scholar
+
+# Scholar config
+scholar:
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: papers.bib
+  bibliography_template: bib
+
+# Navigation links (top)
+include: ["_pages"]
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+paginate: 5
+paginate_path: "/blog/page:num/"
