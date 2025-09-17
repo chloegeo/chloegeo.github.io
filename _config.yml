@@ -5,7 +5,14 @@ url: "" # your site URL without trailing slash (set later if using custom domain
 baseurl: "" # leave empty for user.github.io root
 
 # AcademicPages settings
-remote_theme: "academicpages/academicpages@main"
+remote_theme: "mmistakes/minimal-mistakes@master"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  # keep jekyll-scholar only if you actually have _bibliography/papers.bib set up
+  - jekyll-scholar
+
 # Fallback if remote_theme not available on GH Pages, uncomment below and commit /vendor bundle
 # theme: "academicpages"
 
@@ -35,10 +42,7 @@ collections:
 
 # Plugins
 ####################
-plugins:
-  - jekyll-remote-theme
-  - jekyll-scholar
-  - jekyll-include-cache
+
 ########################
 
 # Scholar config
