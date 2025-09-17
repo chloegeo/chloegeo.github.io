@@ -34,8 +34,12 @@ collections:
     output: true
 
 # Plugins
+####################
 plugins:
+  - jekyll-remote-theme
   - jekyll-scholar
+  - jekyll-include-cache
+########################
 
 # Scholar config
 scholar:
