@@ -1,6 +1,6 @@
-title: "Chloë Thalia Georgiou"
+title: "Chloe Thalia Georgiou"
 email: "chloegeorgiou8@gmail.com"
-description: "PhD student in Computer Science at UC Irvine. Security & privacy, smart contracts, applied cryptography."
+description: "PhD student in Computer Science at UC Irvine. Security & privacy, applied cryptography."
 url: "" # your site URL without trailing slash (set later if using custom domain)
 baseurl: "" # leave empty for user.github.io root
 
@@ -11,9 +11,9 @@ remote_theme: "mmistakes/academicpages"
 
 # Author profile (shows in sidebar)
 author:
-  name: "Chloë Georgiou"
+  name: "Chloe Georgiou"
   avatar: "/assets/img/headshot.jpg"   # replace with your photo
-  bio: "PhD student @ UC Irvine advised by Gene Tsudik. Research: privacy-preserving systems and smart-contract security."
+  bio: "PhD student @ UC Irvine advised by Gene Tsudik."
   location: "Irvine, CA"
   employer: "UC Irvine"
   email: "chloegeorgiou8@gmail.com"
