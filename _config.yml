@@ -5,7 +5,7 @@ url: "" # your site URL without trailing slash (set later if using custom domain
 baseurl: "" # leave empty for user.github.io root
 
 # AcademicPages settings
-remote_theme: "academicpages/academicpages"
+remote_theme: "academicpages/academicpages@gh-pages"
 # Fallback if remote_theme not available on GH Pages, uncomment below and commit /vendor bundle
 # theme: "academicpages"
 
