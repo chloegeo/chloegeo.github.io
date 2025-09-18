@@ -1,8 +1,14 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme", group: :jekyll_plugins
-gem "jekyll-scholar", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins   # optional but nice with AcademicPages
-gem "webrick"   # helps local `jekyll serve` on Ruby 3.x
+gem "jekyll", "~> 4.3.3"
+gem "webrick"
 
+# Remote theme + cache
+gem "jekyll-remote-theme", "~> 0.4"
+gem "jekyll-include-cache", "~> 0.2"
+
+# Scholar stack (versions matter)
+gem "jekyll-scholar", "~> 7.1"
+gem "bibtex-ruby", "~> 6.0"
+gem "citeproc-ruby", "~> 2.6"
+gem "csl-styles", "~> 1.0"
