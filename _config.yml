@@ -47,11 +47,15 @@ collections:
 
 # Scholar config
 scholar:
-  style: apa
-  locale: en
   source: _bibliography
   bibliography: papers.bib
-  bibliography_template: bib
+
+# scholar:
+#   style: apa
+#   locale: en
+#   source: _bibliography
+#   bibliography: papers.bib
+#   bibliography_template: bib
 
 # Navigation links (top)
 include: ["_pages"]
