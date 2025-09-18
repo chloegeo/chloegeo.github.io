@@ -10,8 +10,8 @@ remote_theme: "mmistakes/minimal-mistakes@master"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  # keep jekyll-scholar only if you actually have _bibliography/papers.bib set up
   - jekyll-scholar
+
 
 # Fallback if remote_theme not available on GH Pages, uncomment below and commit /vendor bundle
 # theme: "academicpages"
@@ -47,8 +47,11 @@ collections:
 
 # Scholar config
 scholar:
+  style: apa
+  locale: en
   source: _bibliography
   bibliography: papers.bib
+
 
 # scholar:
 #   style: apa
