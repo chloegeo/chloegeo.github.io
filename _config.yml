@@ -10,7 +10,10 @@ remote_theme: "mmistakes/minimal-mistakes@master"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-scholar
+
 
 
 # Fallback if remote_theme not available on GH Pages, uncomment below and commit /vendor bundle
