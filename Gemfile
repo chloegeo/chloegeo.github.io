@@ -1,14 +1,14 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.3"
-gem "webrick"
+# Jekyll core
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.8"   # needed for Ruby 3+
 
-# Remote theme + cache
-gem "jekyll-remote-theme", "~> 0.4"
-gem "jekyll-include-cache", "~> 0.2"
-
-# Scholar stack (versions matter)
+# Plugins you’re actually using
+gem "jekyll-include-cache"
 gem "jekyll-scholar", "~> 7.1"
-gem "bibtex-ruby", "~> 6.0"
-gem "citeproc-ruby", "~> 2.6"
+
+# Scholar deps (pin to versions that exist)
+gem "citeproc-ruby", "~> 2.1", ">= 2.1.2"
+gem "csl", "~> 1.6"
 gem "csl-styles", "~> 1.0"
